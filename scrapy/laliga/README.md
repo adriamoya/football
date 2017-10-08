@@ -28,6 +28,17 @@ FEED_EXPORT_ENCODING = 'utf-8'
 For each team, journey and season, we want to scrape the following info.
 
 ```json
-{"jornada": 31, "partidos_perdidos": 7, "puntos": 67, "partidos_ganados": 20, "equipo": "Real Madrid", "posicion": 1, "goles_contra": 37, "temporada": 2003, "goles_favor": 65, "partidos_empatados": 4}
+{
+   "jornada":31,
+   "partidos_perdidos":7,
+   "puntos":67,
+   "partidos_ganados":20,
+   "equipo":"Real Madrid",
+   "posicion":1,
+   "goles_contra":37,
+   "temporada":2003,
+   "goles_favor":65,
+   "partidos_empatados":4
+}
 
 ```
