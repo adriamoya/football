@@ -7,3 +7,7 @@ Analyzing data from scrapy. There are two different databases:
 * Laliga: Essentially a snapshot of the classification for each match day.
 
 Ideally we are interested to inherit the information from the classifcation at each match day in the RFEF data structure. So that, for each match (or, more precisely, for each team in each match) we want to append the data related with its position in the classification.
+
+## Considerations
+
+Joinig the information is not straightforward since teams are named differently in each website. Therefore, we need to manually connect their names before we proceed to join the data.
